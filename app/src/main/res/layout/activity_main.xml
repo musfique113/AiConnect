@@ -11,30 +11,30 @@
         android:layout_height="match_parent"
         android:id="@+id/recyclerVIew"
         android:layout_above="@id/bottomlayer"/>
+
     <TextView
+        android:id="@+id/welcometextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/welcometextView"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:textSize="28dp"
-        android:text="Welcom to AI Connect"
-        />
+        android:text="Welcome to AI Connect \n Alpha \n @musfique113"
+        android:textSize="28dp" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:id="@+id/bottomlayer">
+
         <EditText
+            android:id="@+id/messegeEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/messegeEditText"
             android:layout_centerInParent="true"
-            android:hint="Write Here "
-            android:padding="16dp"
             android:layout_toLeftOf="@+id/sendBt"
             android:background="@drawable/roundcoeder"
-            />
+            android:hint="Write Here "
+            android:padding="16dp" />
 
         <ImageButton
             android:id="@+id/sendBt"
